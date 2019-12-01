@@ -1,0 +1,95 @@
+.Home {
+  width: 100%;
+
+  h3 {
+    font-style: italic;
+  }
+
+  p {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+
+  img {
+    border-radius: 3px;
+    width: 50%;
+    height: auto;
+    margin: 10px auto;
+    border: 2px solid black;
+
+    @media screen and (max-width:530px) {
+      width: 80%;
+    }
+  }
+
+  // .call-to-action {
+  //   margin: 20px;
+  //   font-size: 2rem;
+  //   width: 50%;
+  //   padding: 10px;
+  //   background-color: #007991;
+  //   color: white;
+  //   border: 2px solid black;
+
+
+  //   &:hover {
+  //     background: #BCD4DE;
+  //     border: 2px solid #007991;
+  //     color: black;
+  //   }
+
+  //   &:active {
+  //     background: white;
+  //   }
+  // }
+
+  .armpit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      width: 40%;
+      margin: 10px 2px;
+
+      @media screen and (max-width:530px) {
+        width: 60%;
+      }
+    }
+
+    // img {
+    //   width: 45%;
+    //   height: 45%;
+    // }
+    p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      background: #2996CC;
+      border-radius: 50%;
+      padding: 3px 8px;
+      border: 1px solid black;
+      color: white;
+
+      &:active {
+        background: #BCD4DE;
+        color: white;
+      }
+    }
+
+    .toggle {
+      display: none;
+    }
+  }
+
+  // .massageTable {
+  //   // img {
+  //   //   height: 80%;
+  //   //   max-width: 90%;
+  //   // }
+  // }
+
+  // .ear {
+  //   // max-width: 90%;
+  // }
+}
